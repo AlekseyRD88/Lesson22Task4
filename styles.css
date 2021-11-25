@@ -102,10 +102,10 @@ picture {
    }
 }
 @media screen and (min-width: 600px) {
-  /* main {
+  main {
       display: flex;
       flex-direction: column;
-   }*/
+   }
 
    .info-section {
       display: flex;
