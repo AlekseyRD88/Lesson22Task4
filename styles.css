@@ -101,7 +101,7 @@ picture {
       width: 100%;
    }
 }
-@media screen and (min-width: 600px) and (max-width: 1199px) {
+/*@media screen and (min-width: 600px) and (max-width: 1199px) {
    main {
       display: flex;
       flex-direction: column;
@@ -119,4 +119,4 @@ picture {
    .news {
       width: 100%;
    }
-}
+}*/
