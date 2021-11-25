@@ -22,10 +22,7 @@ body {
    display: flex;
    flex: 1 0 auto;
 }
-.wrapper {
-   display: flex;
-   width: 80%;
-}
+
 .footer {
    background-color: #e5e5e5;
    padding: 0.5em;
@@ -123,7 +120,9 @@ picture {
 @media screen and (min-width: 1200px) {
   main {
       display: flex;
+      flex-direction: row;
    }
+   
   .navigation {
      width: 20vw;
   }
