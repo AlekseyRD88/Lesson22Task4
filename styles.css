@@ -101,22 +101,42 @@ picture {
       width: 100%;
    }
 }
-/*@media screen and (min-width: 600px) and (max-width: 1199px) {
+@media screen and (min-width: 600px) {
    main {
       display: flex;
       flex-direction: column;
    }
-   .wrapper {
-      display: flex; 
-      
-   }
-   .navigation {
-      width: 20%;
+
+   .info-section {
+      display: flex;
    }
    .section {
-      width: 80%;
+      width: 80vw;
+   }
+   .navigation {
+      width: 20vw;
    }
    .news {
+      display: flex;
+      flex-direction: column;
       width: 100%;
    }
-}*/
+}
+@media screen and (min-width: 1200px) {
+  /main {
+      display: flex;
+   }
+  .navigation {
+     display: flex;
+     width: 20vw;
+  }
+  .section {
+     display: flex;
+     flex-direction: column;
+     width: 60vw;
+  }
+  .news {
+     display: flex;
+     width: 20vw;
+  }
+}
