@@ -102,10 +102,10 @@ picture {
    }
 }
 @media screen and (min-width: 600px) {
-   main {
+  /* main {
       display: flex;
       flex-direction: column;
-   }
+   }*/
 
    .info-section {
       display: flex;
@@ -117,26 +117,20 @@ picture {
       width: 20vw;
    }
    .news {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
+      width: 100vw;
    }
 }
 @media screen and (min-width: 1200px) {
-  /main {
+  main {
       display: flex;
    }
   .navigation {
-     display: flex;
      width: 20vw;
   }
   .section {
-     display: flex;
-     flex-direction: column;
      width: 60vw;
   }
   .news {
-     display: flex;
      width: 20vw;
   }
 }
